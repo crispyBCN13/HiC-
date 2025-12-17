@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>HighlyCritical</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="posts.js"></script>
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="container">
+    <div class="row">
+      <a class="brand" href="index.html"><span class="brand-badge"></span><div>HighlyCritical <small>Movie + TV reviews</small></div></a>
+      <div class="spacer"></div>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="movies.html">Movies</a>
+        <a href="tv.html">TV</a>
+        <a href="articles.html">Articles</a>
+        
+      </nav>
+    </div>
+  </div>
+</header>
+
+<main class="container">
+  <section class="section">
+    <div class="card pad">
+      <div class="kicker">Weekly drops</div>
+      <h1>Latest releases + Must Watch picks</h1>
+      <p>You and Sergio publish by adding a new HTML post + one entry in <b>posts.js</b>.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-title"><h2>Latest Releases</h2><span>newest first</span></div>
+    <div id="latestGrid" class="grid"></div>
+  </section>
+
+  <section class="section">
+    <div class="section-title"><h2>MUST WATCH</h2><span>curated</span></div>
+    <div id="mustGrid" class="grid"></div>
+  </section>
+
+  <section class="footer">
+    <div class="small-note">No logins. Just write posts and commit.</div>
+  </section>
+</main>
+
+</body>
+</html>
